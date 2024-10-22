@@ -2,20 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Futura Regular */
+@font-face {
+  font-family: "Futura Bk BT";
+  src: url("/fonts/FuturaBT-Book.woff2") format("woff2"),
+    url("/fonts/FuturaBT-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Futura Bold Condensed */
+@font-face {
+  font-family: "Futura BdCn BT";
+  src: url("/fonts/FuturaBT-BoldCondensed.woff2") format("woff2"),
+    url("/fonts/FuturaBT-BoldCondensed.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Futura Medium Italic */
+@font-face {
+  font-family: "Futura Md BT";
+  src: url("/fonts/FuturaBT-MediumItalic.woff2") format("woff2"),
+    url("/fonts/FuturaBT-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Futura Bk BT", Arial, sans-serif;
 }
