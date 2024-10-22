@@ -30,17 +30,17 @@ const config: Config = {
           css: {
             color: "#171717",
             h1: {
-              fontFamily: '"Futura", sans-serif',
+              fontFamily: '"Futura Bk BT", sans-serif',
               fontWeight: "700",
               color: "#162B47",
             },
             h2: {
-              fontFamily: '"Futura", sans-serif',
+              fontFamily: '"Futura Bk BT", sans-serif',
               fontWeight: "600",
               color: "#345C74",
             },
             p: {
-              fontFamily: '"Futura", sans-serif',
+              fontFamily: '"Futura Bk BT", sans-serif',
               color: "#5A8A93",
             },
           },
