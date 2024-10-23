@@ -17,7 +17,7 @@ module.exports = {
       },
       backgroundImage: {
         "hero-gradient": "linear-gradient(to right, #49B9DA, #D5FCFF)",
-        "hero-button": "linear-gradient(to right, #AF4221, #E49A6D)",
+        "button-orange-gradient": "linear-gradient(to right, #AF4221, #E49A6D)",
       },
       fontFamily: {
         regular: ['"Futura Bk BT"', "sans-serif"],

@@ -1,22 +1,18 @@
-import Image from "next/image";
-
-export default function About() {
+export default function Advantages() {
   return (
-    <section className="bg-darkBlue text-white py-12 rounded-lg shadow-md flex flex-col items-center space-y-4">
-      <h2 className="text-2xl font-bold text-center">Über uns</h2>
-      <div className="w-full max-w-lg flex flex-col items-center space-y-4">
-        <Image
-          src="/path-to-about-image.jpg"
-          alt="Über uns Bild"
-          width={300}
-          height={200}
-          className="rounded-full"
-        />
-        <p className="text-center max-w-2xl">
-          Unser Unternehmen bietet seit vielen Jahren herausragende Services im
-          Bereich XYZ an.
-        </p>
-      </div>
+    <section
+      className="flex flex-col items-center text-center py-16"
+      style={{
+        backgroundImage: "url('/images/advantages/bg-advantages.png')", // Pfad zum Hintergrundbild
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        minHeight: "150vh",      }}
+    >
+      <h2 className="text-3xl font-bold mb-4">Vorteile</h2>
+      <p className="mb-8">
+        Hier sind einige Vorteile unserer Video-Testimonials.
+      </p>
+      {/* Füge hier den Inhalt der Vorteile hinzu */}
     </section>
   );
 }
