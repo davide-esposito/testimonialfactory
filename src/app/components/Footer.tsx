@@ -4,9 +4,8 @@ export default function Footer() {
       className=" py-8 text-center text-white"
       style={{
         backgroundImage: "url('/images/footer/bg-footer.png')",
-        backgroundSize: "cover",
+        backgroundSize: "contain",
         backgroundPosition: "center",
-        minHeight: "50vh",
       }}
     >
       <p>&copy; 2024 Dein Unternehmen. Alle Rechte vorbehalten.</p>

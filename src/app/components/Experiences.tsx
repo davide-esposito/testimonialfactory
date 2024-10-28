@@ -3,17 +3,18 @@ import Image from "next/image";
 export default function Experiences() {
   return (
     <section
-      className="flex flex-col items-center text-center py-16"
+      className="flex flex-col items-center text-center p-8 -mb-12"
       style={{
         backgroundImage: "url('/images/experiences/bg-experience.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
         minHeight: "100vh",
       }}
     >
-      <div className="flex flex-col items-center mb-8">
+      <div className="flex flex-col items-center">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-6xl mt-12">
-          <div className="text-black p-8 flex flex-col items-center justify-end">
+          <div className="px-8 py-12 flex flex-col items-center">
             <Image
               src="/images/experiences/icon_align-left.png"
               alt="icon align left"
@@ -21,12 +22,12 @@ export default function Experiences() {
               height={50}
               className="mb-8"
             />
-            <p className="font-bold">
+            <p>
               Viele Unternehmen verwenden Text-Testimonials, die oft wenig
               überzeugend wirken und nicht die volle Wirkung erzielen.
             </p>
           </div>
-          <div className="text-black p-8 flex flex-col items-center justify-end">
+          <div className="p-8 flex flex-col items-center">
             <Image
               src="/images/experiences/icon_media-video-list.png"
               alt="icon media video"
@@ -34,13 +35,13 @@ export default function Experiences() {
               height={50}
               className="mb-8"
             />
-            <p className="font-bold">
+            <p>
               Wir erstellen authentische Video-Testimonials, die das Vertrauen
               deiner potenziellen Kunden durch echte und emotionale Geschichten
               stärken.
             </p>
           </div>
-          <div className="text-black p-8 flex flex-col items-center ">
+          <div className="p-8 flex flex-col items-center ">
             <Image
               src="/images/experiences/icon_fast-arrow-up-box.png"
               alt="icon fast arrow up box"
@@ -48,7 +49,7 @@ export default function Experiences() {
               height={50}
               className="mb-8"
             />
-            <p className="font-bold">
+            <p>
               Und gestärktes Vertrauen führt zu mehr Engagement, mehr
               Kundenanfragen und letztendlich zu höherem Umsatz.
             </p>
@@ -57,9 +58,9 @@ export default function Experiences() {
       </div>
       <h1 className="text-4xl font-bold mt-4">Erfahrungen unserer Kunden</h1>
 
-      <div className="flex flex-col items-center text-center py-12 px-32">
+      <div className="flex flex-col items-center text-center">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-6xl">
-          <div className="text-black p-6 rounded-lg shadow-2xl flex flex-col items-center">
+          <div className="p-6 rounded-lg shadow-2xl flex flex-col items-center">
             <Image
               src="/images/experiences/experience-img.png"
               alt="Erfahrung 1"
@@ -72,7 +73,7 @@ export default function Experiences() {
               doppelt so viele Neukunden gewinnen."
             </p>
           </div>
-          <div className="text-black p-6 rounded-lg shadow-2xl flex flex-col items-center">
+          <div className="p-6 rounded-lg shadow-2xl flex flex-col items-center">
             <Image
               src="/images/experiences/experience-img.png"
               alt="Erfahrung 2"
@@ -85,7 +86,7 @@ export default function Experiences() {
               qualifizierte Kundenanfragen."
             </p>
           </div>
-          <div className="text-black p-6 rounded-lg shadow-2xl flex flex-col items-center">
+          <div className="p-6 rounded-lg shadow-2xl flex flex-col items-center">
             <Image
               src="/images/experiences/experience-img.png"
               alt="Erfahrung 3"

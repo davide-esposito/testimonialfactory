@@ -9,18 +9,21 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#345C74",
-        secondary: "#5A8A93",
-        neutral: "#E3E3E3",
-        darkBlue: "#162B47",
-        lightBlue: "#9AD1E3",
+        darkBlue: "#182A44",
+        mediumBlue: "#174068",
+        lightBlue: "#D5FCFF",
+        skyBlue: "#49B9DA",
       },
       backgroundImage: {
-        "hero-gradient": "linear-gradient(to right, #49B9DA, #D5FCFF)",
+        "line-gradient": "linear-gradient(to right, #49B9DA, #D5FCFF)",
         "button-orange-gradient": "linear-gradient(to right, #AF4221, #E49A6D)",
+        "table-gradient": "linear-gradient(to right, #182A44, #174068)",
+        "medium-blue-gradient": "linear-gradient(to right, #174068, #49B9DA)",
       },
       fontFamily: {
         regular: ['"Futura Bk BT"', "sans-serif"],
+        bold: ['"Futura BdCn BT"', "sans-serif"],
+        italic: ['"Futura Md BT"', "sans-serif"],
       },
     },
   },
