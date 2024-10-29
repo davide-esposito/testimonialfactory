@@ -3,6 +3,7 @@ import Image from "next/image";
 export default function Experiences() {
   return (
     <section
+      id="#kundenstimmen"
       className="flex flex-col items-center text-center p-8 -mb-12"
       style={{
         backgroundImage: "url('/images/experiences/bg-experience.jpg')",

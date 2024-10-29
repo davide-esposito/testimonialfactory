@@ -4,6 +4,7 @@ import { IconDonate, IconEye, IconThumbsUp } from "./Icons";
 export default function Need() {
   return (
     <section
+      id="#so-arbeiten-wir"
       className="text-white p-8"
       style={{
         backgroundImage: "url('/images/need/bg-need.png')",
@@ -26,9 +27,7 @@ export default function Need() {
         </p>
       </div>
 
-      {/* Image and Icons Section */}
       <div className="flex w-full max-w-6xl mb-8">
-        {/* Image Section */}
         <div className="flex-2 flex justify-center -mr-16">
           <Image
             src="/images/need/need-mobile.png"
@@ -40,7 +39,6 @@ export default function Need() {
           />
         </div>
 
-        {/* Icons and Text Section */}
         <div className="flex-1 flex flex-col text-left">
           <div className="flex flex-col mb-4">
             <IconEye />
